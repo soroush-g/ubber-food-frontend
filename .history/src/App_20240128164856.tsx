@@ -4,6 +4,7 @@ import LoggedOutRouter from './router/logged-out-router';
 
 function App() {
   return <LoggedOutRouter />
+       <LoggedInRouter />
 }
 
 export default App;
